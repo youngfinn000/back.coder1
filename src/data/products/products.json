@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "title": "Arroz",
+    "description": "Largo fino",
+    "code": "abc123",
+    "price": 1500,
+    "status": true,
+    "stock": 10,
+    "category": "alimentos",
+    "thumbnails": "sin imagen"
+  },
+  {
+    "id": 3,
+    "title": "Pure de tomates",
+    "description": "en lata",
+    "code": "ghi789",
+    "price": 700,
+    "status": true,
+    "stock": 20,
+    "category": "alimentos",
+    "thumbnails": "sin imagen"
+  },
+  {
+    "id": 4,
+    "title": "Ketchup",
+    "description": "sobre 50ml",
+    "code": "jkl012",
+    "price": 650,
+    "status": true,
+    "stock": 7,
+    "category": "alimentos",
+    "thumbnails": "sin imagen"
+  },
+  {
+    "id": 5,
+    "title": "Mayonesa",
+    "description": "sobre 50ml",
+    "code": "mno345",
+    "price": 850,
+    "status": true,
+    "stock": 9,
+    "category": "alimentos",
+    "thumbnails": "sin imagen"
+  },
+  {
+    "id": 2,
+    "title": "Arroz",
+    "description": "Marolio",
+    "code": "asx332",
+    "price": "200",
+    "status": "true",
+    "stock": "20",
+    "category": "alimentos",
+    "thumbnails": "sin imagen"
+  },
+  {
+    "id": 6,
+    "title": "Lentejas",
+    "description": "Lata 50grs",
+    "code": "ddd221",
+    "price": "100",
+    "status": "false",
+    "stock": "0",
+    "category": "alimentos",
+    "thumbnails": "sin imagen"
+  },
+  {
+    "id": 7,
+    "title": "Jabon de tocador",
+    "description": "Lux",
+    "code": "uiu888",
+    "price": "2000",
+    "status": "true",
+    "stock": "12",
+    "category": "hiegiene personal",
+    "thumbnails": "sin imagen"
+  }
+]

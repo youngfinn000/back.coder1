@@ -1,0 +1,13 @@
+{{!-- Utilizamos un partial para el diseño de las cards del home --}}
+
+<div class="container">
+
+        {{#each products}}
+            <div id="{{this.id}}" class="card">
+                <h3>Titulo: {{this.title}}</h3>
+                <p>Descripcion: {{this.description}}</p>
+                <p>Precio: {{this.price}}</p>
+            </div>
+            
+        {{/each}}
+</div>

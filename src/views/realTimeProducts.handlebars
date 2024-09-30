@@ -1,0 +1,79 @@
+{{!-- Aca van los productos en real time --}}
+<div class="principalContainer">
+
+    <div class="containerProducts">
+
+    </div>
+
+    {{!-- La creacion de una vista (formulario) para que el cliente puede enviar informacion de creacion de productos. --}}
+
+    {{!-- El name de cada input debe  coincidir con lo que recibe el servidor de info por el metodo POST --}}
+
+<div class="formContainer">
+    <form class="productForm" method="post" enctype="application/x-www-form-urlencoded">
+        <h4>Ingrese la informacion del nuevo producto</h4>
+
+        <div>
+            <label for="title">Title:</label>
+            <input id="title" name="title" type="text" required>
+        </div>
+
+        <div>
+            <label for="description">Descripcion:</label>
+            <input id="description" name="description" type="text" required>
+        </div>
+
+        <div>
+            <label for="code">Code:</label>
+            <input id="code" name="code" type="text" required>
+        </div>
+
+        <div>
+            <label for="price">Price:</label>
+            <input id="price" name="price" type="number" required>
+        </div>
+
+        <div class="status">
+            <p>Status:</p>
+            <div class="radioOption">
+                <label for="status-true">True</label>
+                <input id="status-true" name="status" type="radio" value="true" checked>
+            </div>
+            <div class="radioOption">
+                <label for="status-false">False</label>
+                <input id="status-false" name="status" type="radio" value="false">
+            </div>
+        </div>
+
+        <div>
+            <label for="stock">Stock:</label>
+            <input id="stock" name="stock" type="number" required>
+        </div>
+
+        <div>
+            <label for="category">Category:</label>
+            <input id="category" name="category" type="text" required>
+        </div>
+
+        <div>
+            <label for="thumbnails">Thumbnails:</label>
+            <input id="thumbnails" name="thumbnails" type="text">
+        </div>
+
+        <div class="sendInfo">
+            <button class="btn-form" type="submit">Enviar</button>
+            <button class="btn-form" type="reset">Reset</button>
+        </div>
+    </form>
+</div>
+
+
+
+</div>
+
+
+
+{{!-- CDN de Socket.io --}}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.min.js"></script>
+{{!-- Mi archivo js --}}
+<script type="module" src="js/main.js" ></script>
